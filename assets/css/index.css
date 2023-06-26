@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+html {
+    width: 100%;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary,
+.btn-primary-small {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: rgb(0, 82, 255);
+    color: white;
+    font-weight: 500;
+    border: solid 1px rgb(0, 82, 255);
+}
+
+.btn-secondary,
+.btn-secondary-small {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: #000;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-secondary-small {
+    font-size: 1rem;
+    padding: 0.1rem 1rem;
+}
+
+.btn-primary-small {
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding: 0.3rem 2rem;
+}
+
+.btn-primary-small:hover {
+    background-color: rgb(1, 76, 236);
+}
+
+.btn-primary:hover {
+    background-color: rgb(1, 76, 236);
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid rgb(236, 239, 241);
+    top: 0px;
+    background: rgb(255, 255, 255);
+    position: sticky;
+}
+
+
+.header-div {
+    max-width: 1180px;
+    margin: 0px auto;
+    display: flex;
+    align-items: stretch;
+    padding: 0px 20px;
+    box-sizing: content-box;
+    min-height: 66px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex: 6 1 0%;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+}
+
+.main-menu {
+    margin-bottom: 0;
+
+}
+
+.main-menu li {
+    font-size: 0.9375rem;
+    list-style: none;
+    display: inline;
+    margin-right: 1rem;
+    color: rgb(5, 15, 25);
+    font-weight: 550;
+}
+
+.icon-sm i {
+    font-size: 1.25rem;
+    padding: 0.4rem 0.65rem;
+    color: #0075FF;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000040;
+}
+
+.main-menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.get-started-div {
+    padding: 0 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.first-section-home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1142px;
+    margin: auto;
+    padding: 3rem;
+
+}
+
+.first-section-home .home-call-to-action .home-description {
+    color: rgb(10, 11, 13);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.first-section-home .home-call-to-action .call-to-action-text {
+    display: flex;
+    gap: 0.4rem;
+    font-weight: 500;
+    color: rgb(0, 82, 255);
+
+}
+
+.first-section-home .home-call-to-action .home-title {
+    margin-top: 8px;
+    max-width: 425px;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+.first-section-home .input-text {
+    width: 100%;
+    padding: 1.3rem;
+    font-size: 1.125rem;
+    line-height: 1.15;
+}
+
+.first-section-home .input-button {
+    padding: 1.3rem;
+    font-size: 1.125rem;
+    line-height: 1.15;
+}
+
+
+.main-menu li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 3px;
+    flex: 2 1 0%;
+}
+
+.logo a img {
+    max-width: 7rem;
+    display: inline-flex;
+    max-height: 20px;
+}
+
+
+.home-img {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.home-img img {
+    height: 534px;
+    width: 100%;
+    min-width: 400px;
+    object-fit: contain;
+
+}
+
+.second-section-features {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(10, 11, 13);
+    margin: auto;
+    padding: 3rem;
+
+}
+
+.second-section-features button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 550;
+    background-color: rgb(55, 115, 245);
+    height: 4rem;
+    border-radius: 4rem;
+    width: 14rem;
+}
+
+.second-section-features button i {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.second-section-features button:hover {
+    background-color: rgb(71, 126, 246);
+}
+
+.web-3-title {
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+}
+
+.web-3-description-div {
+    max-width: 700px;
+}
+
+.web-3-description {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.web-3-buttons {
+    min-width: 205px;
+}
+
+.third-section-tables {
+    padding: 0px;
+    max-width: 1142px;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px 0 rgba(50, 53, 61, 0.02);
+    border: 1px solid rgba(91, 97, 110, 0.2);
+    border-radius: 4px;
+}
+
+.coinbase-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.coinbase-table th,
+.coinbase-table td {
+    width: auto;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.coinbase-table th {
+    font-weight: 200;
+    color: gray;
+}
+
+.coinbase-table tbody tr:nth-child(even) {
+    background-color: #F9FAFB;
+}
+
+.coinbase-table tbody tr:hover {
+    background-color: #EDF2F7;
+}
+
+.coinbase-table button {
+    padding: 8px, 16px;
+    position: relative;
+    width: auto;
+    margin: 0px;
+    border-radius: 4px;
+    color: rgb(var(--gray0));
+    cursor: pointer;
+    transition: all 80ms ease-in-out 0s;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: 1px solid rgb(9, 133, 81);
+    background-color: rgb(9, 133, 81);
+}
+
+.coinbase-table button:hover {
+    background-color: rgb(10, 167, 102);
+}
+
+.coinbase-table button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    color: white;
+    font-weight: 500;
+}
+
+.max-padding {
+    padding: 16px 48px 16px 0px;
+    width: 100% !important;
+}
+
+.text-red {
+    color: rgb(207, 32, 47);
+}
+
+.text-gray {
+    color: rgb(91, 97, 110);
+    font-weight: 400;
+}
+
+@media (max-width: 576px) {
+
+    .coinbase-table th,
+    .coinbase-table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .coinbase-table button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    .max-padding {
+        padding: 8px 24px 8px 0px;
+    }
+}
