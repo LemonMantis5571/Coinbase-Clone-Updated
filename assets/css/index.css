@@ -351,7 +351,6 @@ header {
 .fourth-section-earnings .text-container {
     max-width: 350px;
     justify-content: center;
-    z-index: 1;
     min-width: 250px;
     flex: 1 1 50%;
 }
@@ -720,13 +719,11 @@ header {
         flex-direction: column !important;
         padding: 16px;
         border-radius: 0px;
+        text-align: center;
     }
-
-
 
     .graph-container {
         min-width: 100px !important;
-        padding: 16px;
         border-radius: 0px;
     }
 
@@ -741,6 +738,8 @@ header {
 
         flex-direction: column;
     }
+
+   
 
     .sec-onboarding .steps .icon-desc .title {
         text-align: center;
@@ -787,4 +786,5 @@ header {
         font-size: smaller;
         border-radius: 40px;
     }
+
 }
